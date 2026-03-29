@@ -74,3 +74,5 @@ def delete_book(book_id: int):
         if book['id'] == book_id:
             books.remove(book)
             return {"Message": "Book is removed"}
+
+            
